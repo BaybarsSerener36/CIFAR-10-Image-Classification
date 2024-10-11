@@ -15,41 +15,39 @@ In a binary classification problem, we typically have a 2x2 matrix with the foll
 ##### 1.2. Accuracy
 Accuracy is a measure of how well the model predicts the correct outcomes across the entire test dataset. It is calculated using the following formula:
 
-```
+
 Accuracy = (TP + TN) / (TP + TN + FP + FN)
-```
+
 
 While accuracy is a good baseline metric, it works well on balanced datasets but may not be as effective on imbalanced datasets.
 
 ##### 1.3. Recall
 Recall, also known as true positive rate, measures how many true positives were predicted out of all positive cases. It is calculated as follows:
 
-```
+
 Recall = TP / (TP + FN)
-```
+
 
 ##### 1.4. Precision
 Precision measures the accuracy of positive predictions. It indicates how certain you are that a predicted positive result is actually positive. It is calculated using the following formula:
 
-```
+
 Precision = TP / (TP + FP)
-```
+
 
 ##### 1.5. F1-Score
 F1-Score is a harmonic mean of precision and recall, providing a balanced measure of both. A higher F1-Score indicates better model performance. It is calculated as:
 
-```
+
 F1-Score = 2 * (Precision * Recall) / (Precision + Recall)
-```
+
 
 ##### 1.6. Specificity
 Specificity measures the ability of a model to correctly identify negative cases. It is calculated as:
 
-```
-Specificity = TN / (TN + FP)
-```
 
----
+Specificity = TN / (TN + FP)
+
 
 #### **2. Deep Learning Model on CIFAR-10 Dataset**
 
@@ -99,7 +97,7 @@ The deep learning model built for the CIFAR-10 dataset uses a convolutional neur
 
 **Analysis**: The Adam optimizer with Sparse Categorical Crossentropy provided the best performance, achieving the highest accuracy.
 
----
+
 
 ##### 2.5. Adagrad Optimizer with Categorical Crossentropy Loss
 
@@ -112,7 +110,7 @@ The deep learning model built for the CIFAR-10 dataset uses a convolutional neur
 
 **Analysis**: The model’s performance decreased significantly with the Adagrad optimizer and Categorical Crossentropy loss function.
 
----
+
 
 ##### 2.6. Nadam Optimizer with Sparse Categorical Crossentropy Loss
 
@@ -125,7 +123,7 @@ The deep learning model built for the CIFAR-10 dataset uses a convolutional neur
 
 **Analysis**: The Nadam optimizer provided slightly higher accuracy, precision, and recall compared to the Adam optimizer.
 
----
+
 
 ##### 2.7. Nadam Optimizer with Categorical Crossentropy Loss
 
@@ -138,7 +136,7 @@ The deep learning model built for the CIFAR-10 dataset uses a convolutional neur
 
 **Analysis**: Although the Nadam optimizer performed slightly worse compared to Adam + Sparse Categorical Crossentropy, both models showed similar performance. Choosing the optimizer and loss function depends on specific requirements.
 
----
+
 
 #### **3. Conclusion**
 
