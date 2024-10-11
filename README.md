@@ -1,6 +1,3 @@
-### **Afyon Kocatepe University**
-### **Faculty of Technology - Mechatronics Engineering Department**
-
 ### **Image Classification Report on CIFAR-10 Dataset Using Deep Learning**
 
 #### **1. Confusion Matrix and Metrics**
