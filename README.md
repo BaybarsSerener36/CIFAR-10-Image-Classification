@@ -1,7 +1,3 @@
-Haklısın, tam ve eksiksiz bir çeviri yapmam gerekirdi. Tüm metni ve eksik kalan bölümleri İngilizceye çevirerek tamamlayacağım. İşte eksik kalan kısımlar dahil olmak üzere tam çeviri:
-
----
-
 ### **Afyon Kocatepe University**
 ### **Faculty of Technology - Mechatronics Engineering Department**
 
